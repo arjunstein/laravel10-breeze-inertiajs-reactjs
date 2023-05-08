@@ -4,14 +4,14 @@ import { Head } from "@inertiajs/react";
 
 export default function About({ data }) {
     return (
-        <AuthenticatedLayout
+        <AuthenticatedLayout>
             user={data}
-            header={
+            header=
+            {
                 <h2 className="font-semibold text-xl text-gray-800 leading-tight">
                     About
                 </h2>
             }
-        >
             <div className="py-12">
                 <Head title="About" />
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
